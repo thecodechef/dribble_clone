@@ -1,0 +1,12 @@
+PreCommit:
+  RuboCop:
+    enabled: true
+    on_warn: fail
+  SlimLint:
+    enabled: true
+    include: app/views/**/*.slim
+  TrailingWhitespace:
+    enabled: true
+    exclude:
+      - 'config/*'
+      - 'db/*'
